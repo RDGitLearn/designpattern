@@ -1,0 +1,8 @@
+package behevioral.observer;
+
+public interface Subject {
+    void subscribe(Observer ob);
+    void unsubscribe(Observer ob);
+
+    void notification(String title);
+}
